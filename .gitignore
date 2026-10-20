@@ -1,0 +1,22 @@
+# Gradle 빌드 결과
+.gradle/
+build/
+
+# IntelliJ 설정 (PC마다 달라서 올리지 않음)
+.idea/
+*.iml
+out/
+
+# OS가 만드는 파일
+Thumbs.db
+.DS_Store
+
+# 비밀 정보 (공개 저장소라 특히 중요)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 로그
+*.log
